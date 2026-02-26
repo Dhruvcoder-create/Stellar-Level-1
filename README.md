@@ -42,6 +42,7 @@ The application builds a Stellar transaction using `TransactionBuilder`, signs i
 <img width="1919" height="1124" alt="Wallet Connect" src="https://github.com/user-attachments/assets/55299ac9-daf7-4ccd-a4a1-7238b2fc1f24" />
 
 ### Balance Displayed
+<img width="1919" height="955" alt="image" src="https://github.com/user-attachments/assets/8e50fccb-c6ec-40c7-b7c4-6fb87d992b2c" />
 
 ### Transaction Confirmation (Freighter)
 <img width="1886" height="1123" alt="Txn Confirmation" src="https://github.com/user-attachments/assets/a60ac6c1-046e-4861-8d9f-2b5c1728167c" />
