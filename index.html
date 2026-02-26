@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Split Bill Calculator - Stellar Testnet</title>
+</head>
+
+<body>
+  <div id="app">
+
+    <h1>Split Bill Calculator</h1>
+
+    <div class="card">
+      <h2>Wallet</h2>
+      <button id="connectBtn">Connect Wallet</button>
+      <button id="disconnectBtn">Disconnect</button>
+      <p id="walletAddress"></p>
+      <p id="balance"></p>
+    </div>
+
+    <div class="card">
+      <h2>Split Bill</h2>
+      <input type="number" id="totalAmount" placeholder="Total Bill (XLM)" />
+      <input type="number" id="peopleCount" placeholder="Number of People" />
+      <button id="calculateBtn">Calculate</button>
+      <p id="splitResult"></p>
+    </div>
+
+    <div class="card">
+      <h2>Send Payment</h2>
+      <input type="text" id="recipient" placeholder="Recipient Address" />
+      <button id="sendBtn">Send Payment</button>
+      <p id="txStatus"></p>
+      <p id="txHash"></p>
+    </div>
+
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
